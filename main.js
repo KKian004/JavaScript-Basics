@@ -37,14 +37,16 @@ greet("Kian");
 function sumArray(arr) {
     return arr.reduce((acc, num) => acc + num, 0);
 }
+let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log("Sum of array elements:", sumArray(numbers));
 
 function findMax(arr) {
     return Math.max(...arr);
 }
-
-
-
-
-let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log("Sum of array elements:", sumArray(numbers));
 console.log("Maximum number in the array:", findMax(numbers));
+
+
+
+
+
+
